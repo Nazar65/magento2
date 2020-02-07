@@ -15,8 +15,8 @@ interface CategoryListDeleteBySkuInterface
     /**
      * Delete by skus list
      *
-     * @param int      $categoryId
-     * @param string[] $productSkuList
+     * @param int   $categoryId
+     * @param array $productSkuList
      * @return bool
      *
      * @throws \Magento\Framework\Exception\CouldNotSaveException
